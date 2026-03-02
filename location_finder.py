@@ -4,7 +4,7 @@ import pandas as pd
 # Configuration
 # ======================================================
 INPUT_FILE = "stores.xlsx"
-ZIP_DB_FILE = r"C:\Users\muthukrishnan.r\Downloads\simplemaps_uszips_basicv1.94\uszips.csv"
+ZIP_DB_FILE = r"C:\Users\test\Downloads\simplemaps_uszips_basicv1.94\uszips.csv"
 OUTPUT_FILE = "stores_with_coordinates.xlsx"
 
 # ======================================================
@@ -51,4 +51,5 @@ print(f"Missing ZIP    : {missing}")
 result.to_excel(OUTPUT_FILE, index=False)
 
 print("\nCompleted successfully!")
+
 print("Output file:", OUTPUT_FILE)
